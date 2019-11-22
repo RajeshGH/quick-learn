@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qwik_bg" translatesAutoresizingMaskIntoConstraints="NO" id="MLd-zQ-4qt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qwik_logo" translatesAutoresizingMaskIntoConstraints="NO" id="0YH-Yc-YR1">
+                                <rect key="frame" x="112.5" y="228.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="UpY-hL-vIe"/>
+                                    <constraint firstAttribute="height" constant="150" id="ss8-QK-9Ec"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MLd-zQ-4qt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4Hm-qj-0vB"/>
+                            <constraint firstItem="MLd-zQ-4qt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4sf-q8-P9g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MLd-zQ-4qt" secondAttribute="trailing" id="BcN-av-jxn"/>
+                            <constraint firstItem="0YH-Yc-YR1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WtQ-bG-2tz"/>
+                            <constraint firstItem="MLd-zQ-4qt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jKa-Fi-ivH"/>
+                            <constraint firstItem="0YH-Yc-YR1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="s80-YA-GMJ"/>
+                            <constraint firstAttribute="bottom" secondItem="MLd-zQ-4qt" secondAttribute="bottom" id="u7Z-8v-lk5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qwik_bg" width="750" height="1334"/>
+        <image name="qwik_logo" width="286" height="277"/>
+    </resources>
+</document>
